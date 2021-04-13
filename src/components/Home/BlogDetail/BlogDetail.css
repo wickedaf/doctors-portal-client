@@ -1,0 +1,13 @@
+.blog-card:hover {
+    background-color: #1CC7C1;
+    background-image: url('./quote.png');
+      transition: 1s;
+}
+
+.blog-card:hover *{
+    color: white !important;
+}
+
+.blog-card:hover img{
+    display: none;
+}

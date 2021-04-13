@@ -1,0 +1,7 @@
+.contact-container{
+    background-image: linear-gradient(#3a4256ed, #3a4256ed), url("./appoinmentBg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}

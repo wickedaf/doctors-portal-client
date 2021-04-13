@@ -1,0 +1,21 @@
+.make-appoinment-container{
+    background-image: url('./appoinmentBg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 400px;
+}
+
+.make-appoinment-container::before {
+    content:'';
+    background: #3a4256ed;
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0px;
+    top:0px;
+   }
+.make-appoinment-container img{
+    transform:translateY(-148px);
+}
